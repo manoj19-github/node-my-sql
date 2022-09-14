@@ -1,8 +1,8 @@
 export default{
-    Host:process.env.db_host,
+    Host:"localhost",
     User:process.env.user??"root",
     Password:process.env.password??"",
-    DB:process.env.db??"node_mysql",
+    DB:process.env.db??"node-prac",
     Dialect:process.env.dialect??"mysql",
 	Logging: true,
 	pool: {
